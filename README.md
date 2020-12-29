@@ -22,3 +22,6 @@ I came with an alternative using Excel sheet. I used excel as a database as well
 After this every time when parent will access that link, s/he will be able to see the current progress level of his/her child.
 
 Unfortunately, file will be updated only if it is open in the desktop app. To ensure that the file is opened in the desktop app when we click the link, we may follow the steps given at the following [help document.](https://support.microsoft.com/en-us/office/open-file-links-directly-in-office-desktop-apps-fe241745-9e05-4142-9ba8-1bb1dc044773)
+
+## Advance
+This is a bare minimum version of the application. For more advance version, we may store entire dataset in a SQL Database and create individual reports using Python bindings. Later link to those Python generated files may be shared with the parents. We may even create a login entry for parents on the WordPress website or the school website and directly share the SQL data
